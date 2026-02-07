@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     margin: 0;
@@ -26,7 +26,7 @@ html, body {
 }
 
 :root {
-    --font-family: "Share Tech", sans-serif;
+    --font-family: "Outfit", sans-serif;
 
     --background: black;
     --nav-background: rgb(0, 1, 14);
