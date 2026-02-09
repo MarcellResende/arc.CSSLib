@@ -1743,7 +1743,7 @@ button.btn-3:active {
 }
 
 .nav-2-logo {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: var(--white);
     opacity: 1;
@@ -1837,7 +1837,7 @@ button.btn-3:active {
 }
 
 .nav-2-item i {
-    font-size: 20px;
+    font-size: 18px;
     transition: .3s ease;
 }
 
@@ -1852,6 +1852,7 @@ button.btn-3:active {
 }
 
 .nav-2-item span {
+    font-size: 14;
     transition: .3s ease;
 }
 
