@@ -1823,11 +1823,15 @@ button.btn-3:active {
 
     padding: 10px 14px;
     border-radius: 6px;
-    color: var(--gray-hover);
 
     cursor: pointer;
     transition: .25s ease;
     position: relative;
+}
+
+.nav-2-item a {
+    color: var(--gray-hover);
+    text-decoration: none;
 }
 
 
@@ -1852,7 +1856,7 @@ button.btn-3:active {
 }
 
 .nav-2-item span {
-    font-size: 14;
+    font-size: 14px;
     transition: .3s ease;
 }
 
