@@ -1840,6 +1840,7 @@ button.btn-3:active {
     gap: 6px;
     width: 100%;
     padding: 10px 14px;
+    text-wrap: nowrap;
 }
 
 .nav-2-item img.icon {
