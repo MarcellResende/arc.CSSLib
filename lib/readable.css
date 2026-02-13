@@ -49,7 +49,7 @@ html, body {
     --purple: #6001b9;
     --purple-hover: #8337ff;
 
-    --degrade: linear-gradient(90deg, var(--blue-hover), #38ffe4, var(--blue-hover));
+    --degrade: linear-gradient(90deg, var(--blue), var(--blue-hover), #38ffe4, var(--blue-hover), var(--blue));
 
     --shadow-soft: 0 2px 4px rgba(0, 0, 0, 0.2);
     --shadow-hard: 0 4px 8px rgba(0, 0, 0, 0.6);
@@ -400,7 +400,7 @@ button.btn-3:active {
     --btn-bg: var(--blue);
     --btn-bg-hover: var(--blue-hover);
 
-    padding: 6px 16px;
+    padding: 6px 10px;
     font-size: 15px;
     font-weight: 500;
 
@@ -464,7 +464,7 @@ button.btn-3:active {
 /* BTN-5 (BTN-3 + BTN-4) */
 .btn-5 {
     position: relative;
-    padding: 6px 20px;
+    padding: 6px 10px;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -1717,7 +1717,7 @@ button.btn-3:active {
     flex-direction: column;
     gap: 20px;
 
-    position: fixed;            
+    position: relative;            
     left: 0;
     top: 0;
 
@@ -1841,7 +1841,7 @@ button.btn-3:active {
 }
 
 .nav-2-item img.icon {
-    width: 22px;
+    width: 18px;
     transition: .3s ease;
 }
 
