@@ -1821,7 +1821,6 @@ button.btn-3:active {
     align-items: center;
     gap: 12px;
 
-    padding: 10px 14px;
     border-radius: 6px;
 
     cursor: pointer;
@@ -1832,8 +1831,14 @@ button.btn-3:active {
 .nav-2-item a {
     color: var(--gray-hover);
     text-decoration: none;
-}
+    text-align: center;
 
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    padding: 10px 14px;
+}
 
 .nav-2-item img.icon {
     width: 22px;
